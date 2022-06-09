@@ -38,6 +38,8 @@ const Projects = () => {
     },
   ];
 
+  // Projects
+
   return (
     <section className="mt-10">
       <div className="md:max-w-[60%] md:pr-24 relative">
