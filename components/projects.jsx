@@ -47,7 +47,7 @@ const Projects = () => {
         <div className="headstyle">Projects.</div>
       </div>
 
-      <div className="mt-8 -mx-6 md:mt-16">
+      <div className="mt-8 -mx-4 md:mt-16">
         <div className="grid grid-flow-row grid-cols-1 mb-6 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
             <div key={project.id} className="mx-6 mt-16">
