@@ -10,6 +10,7 @@
   * {
     scrollbar-width: thin;
     scrollbar-color: #fed9ca white;
+    -webkit-tap-highlight-color: transparent;
   }
 
   *::-webkit-scrollbar {
