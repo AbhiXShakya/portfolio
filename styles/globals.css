@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #fed9ca white;
+  }
+
+  *::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: white;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #fed9ca;
+    border-radius: 20px;
+    border: 1px #fed9ca white;
+  }
+
+  .headb {
+    @apply pl-4 z-[1] relative before:content-[''] before:absolute before:border-xorange before:border-8 before:border-solid before:z-[-1] before:h-0 before:bg-orange-200 before:min-w-full before:top-[50%] before:left-2 inline;
+  }
+
+  .headbh {
+    @apply transition duration-100 ease-in text-xgray cursor-pointer select-none inline;
+  }
+
+  .headbh:hover {
+    @apply pl-4 z-[1] relative before:content-[''] before:absolute before:border-xorange before:border-8 before:border-solid before:z-[-1] before:h-0 before:bg-orange-200 before:min-w-full before:top-[50%] before:left-2 text-xblack;
+  }
+
+  p {
+    @apply pb-4 text-xblack;
+  }
+
+  .headstyle {
+    @apply absolute text-xstyle text-[20vw] font-extrabold -bottom-[100%] -z-10 -left-[5%];
+  }
+}
