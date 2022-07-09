@@ -2,15 +2,18 @@ import Image from "next/image";
 import Link from "next/link";
 
 import {
+  DockerIcon,
   ExpressJSIcon,
   GitHubIcon,
   JSIcon,
   MongoDBIcon,
   NextJSIcon,
+  NginxIcon,
   NodeJSIcon,
   PythonIcon,
   ReactJSIcon,
   SolidityIcon,
+  TailwindIcon,
   TSIcon,
 } from "./icons";
 
@@ -24,7 +27,7 @@ const About = () => {
       <h2 className="pb-4 text-xl font-semibold">I&apos;m Abhishek Shakya</h2>
       <div className="mt-2 mb-6 md:hidden">
         <Image
-          src="/images/Abhishek-Shakya.jpg"
+          src="/images/AbhiXShakya-Abhishek-Shakya.jpg"
           alt="Abhishek Shakya"
           width={404}
           height={460}
@@ -83,6 +86,18 @@ const About = () => {
         <div className="m-4 min-w-[5rem]">
           <GitHubIcon width="50" height="50" />
           <h3 className="mt-2 font-bold">GitHub</h3>
+        </div>
+        <div className="m-4 min-w-[5rem]">
+          <TailwindIcon width="50" height="50" />
+          <h3 className="mt-2 font-bold">TailwindCSS</h3>
+        </div>
+        <div className="m-4 min-w-[5rem]">
+          <DockerIcon width="50" height="50" />
+          <h3 className="mt-2 font-bold">Docker</h3>
+        </div>
+        <div className="m-4 min-w-[5rem]">
+          <NginxIcon width="50" height="50" />
+          <h3 className="mt-2 font-bold">NGiNX</h3>
         </div>
       </div>
       <p className="mt-8">

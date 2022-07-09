@@ -19,7 +19,7 @@ const HomeContent = () => {
         </div>
         <div className="hidden md:flex md:justify-between">
           <Image
-            src="/images/Abhishek-Shakya.jpg"
+            src="/images/AbhiXShakya-Abhishek-Shakya.jpg"
             alt="Abhishek Shakya AbhiXShakya"
             width={404}
             height={460}
