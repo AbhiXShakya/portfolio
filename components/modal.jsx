@@ -111,7 +111,7 @@ const Modal = ({ setIsOpen, page }) => {
           </li>
           <li>
             <a
-              href="https://github.com/abhiXShakya"
+              href="https://github.com/AbhiXShakya"
               target="_blank"
               rel="noreferrer"
             >
