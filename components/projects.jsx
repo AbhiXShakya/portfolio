@@ -18,7 +18,7 @@ const Projects = () => {
       id: 2,
       name: "AntrixMesh",
       description:
-        "At AntrixMesh, we are building a virtual assets news and research facilitation platform. Our objective is to provide the global community access to all news, data and research under one comprehensive platform.",
+        "I have built AntrixMesh using MERN STACK (MongoDB, ExpressJS, ReactJS, NodeJS). The vision of AntrixMesh is to provide all News and Updates related to blockchain on one Platform. Also, I have made Script which automatically gets all the news from popular websites, identifies the country, and other filters then save it to the database (MongoDB).",
       link: "https://antrixmesh.netlify.app/",
       github: "https://github.com/AbhiXShakya/AntrixMesh",
       image: "/images/AntrixMesh-by-AbhiXShakya.jpg",
@@ -29,7 +29,7 @@ const Projects = () => {
       id: 3,
       name: "Learn2Finance",
       description:
-        "We here at Learn2Finance.com talk about money, how to make it, save it and invest it. Our aim is to educate people about money, personal finance and make them aware of the financial freedom that comes with money.",
+        "I have built Learn2Finance using Wordpress. Our aim is to educate people about money and personal finance and make them aware of the financial freedom that comes with money. I have also done SEO to make the website more search engine friendly.",
       link: "https://learn2finance.com/",
       github: false,
       image: "/images/Learn2Finance-by-AbhiXShakya.jpg",
@@ -58,6 +58,7 @@ const Projects = () => {
                   className="object-cover object-center w-full rounded-lg shadow-md"
                   width={1600}
                   height={1400}
+                  priority={true}
                 />
                 <div className="relative px-4 -mt-16">
                   <div className="p-5 bg-white rounded-lg shadow-lg">
