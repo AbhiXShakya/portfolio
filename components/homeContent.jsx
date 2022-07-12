@@ -23,6 +23,7 @@ const HomeContent = () => {
             alt="Abhishek Shakya AbhiXShakya"
             width={404}
             height={460}
+            priority={true}
           />
 
           <Link href="#about">
