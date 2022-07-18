@@ -18,7 +18,7 @@ const Projects = () => {
       id: 2,
       name: "AntrixMesh",
       description:
-        "I have built AntrixMesh using MERN STACK (MongoDB, ExpressJS, ReactJS, NodeJS). The vision of AntrixMesh is to provide all News and Updates related to blockchain on one Platform. Also, I have made Script which automatically gets all the news from popular websites, identifies the country, and other filters then save it to the database (MongoDB).",
+        "I have built AntrixMesh using MERN STACK (MongoDB, ExpressJS, ReactJS, NodeJS). The vision of AntrixMesh is to provide all News of blockchain. Also, I have made Script which automatically gets all the news from popular websites, identifies the country and save it to the database",
       link: "https://antrixmesh.netlify.app/",
       github: "https://github.com/AbhiXShakya/AntrixMesh",
       image: "/images/AntrixMesh-by-AbhiXShakya.jpg",
@@ -66,7 +66,7 @@ const Projects = () => {
                       {project.name}
                     </h2>
                     <div className="mt-1">
-                      <p className="text-sm text-gray-600 min-h-[9rem]">
+                      <p className="text-sm text-gray-600 min-h-[10rem]">
                         {project.description}
                       </p>
                     </div>
