@@ -35,7 +35,7 @@ const About = () => {
       </div>
       <p>
         I&apos;m a MERN Stack (Next.js) Web Developer. Currently learning
-        Blockchain Development. I&apos;m a 2nd Year Student pursuing for B.E.
+        Blockchain Development. I&apos;m a 3rd Year Student pursuing for B.E.
         (Bachelor of Engineering)
       </p>
       <p>
