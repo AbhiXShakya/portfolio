@@ -4,6 +4,17 @@ import { GitHubIcon, LinkIcon } from "./icons";
 const Projects = () => {
   const projects = [
     {
+      id: 0,
+      name: "MIUI Flash",
+      description:
+        "I've done MIUIFlash using MERN STACK (With NextJS), made python bot for automatic Updates and an Admin Panel for Manual Posting. Also I've done SEO. I have deployed this project on my server, using NGINX and Github Actions for CI/CD.",
+      link: "https://miuiflash.com",
+      github: "https://github.com/AbhiXShakya/MIUIFlash",
+      image: "/images/MIUIFlash-by-AbhiXShakya.jpeg",
+      alt: "MIUIFlash by AbhiXShakya",
+      tags: ["MERN", "NextJS", "Python", "SEO"],
+    },
+    {
       id: 1,
       name: "Amazon Price Tracker",
       description:
@@ -52,14 +63,16 @@ const Projects = () => {
           {projects.map((project) => (
             <div key={project.id} className="mx-6 mt-16">
               <div>
-                <Image
-                  src={project.image}
-                  alt={project.alt}
-                  className="object-cover object-center w-full rounded-lg shadow-md"
-                  width={1600}
-                  height={1400}
-                  priority={true}
-                />
+                <div className="shadow-lg rounded-lg px-1 pt-1">
+                  <Image
+                    src={project.image}
+                    alt={project.alt}
+                    className="object-cover object-center w-full rounded-lg"
+                    width={1600}
+                    height={1400}
+                    priority={true}
+                  />
+                </div>
                 <div className="relative px-4 -mt-16">
                   <div className="p-5 bg-white rounded-lg shadow-lg">
                     <h2 className="text-2xl font-extrabold font-ubuntu">
