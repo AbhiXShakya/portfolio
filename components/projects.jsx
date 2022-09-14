@@ -4,26 +4,15 @@ import { GitHubIcon, LinkIcon } from "./icons";
 const Projects = () => {
   const projects = [
     {
-      id: 0,
-      name: "MIUI Flash",
-      description:
-        "I've done MIUIFlash using MERN STACK (With NextJS), made python bot for automatic Updates and an Admin Panel for Manual Posting. Also I've done SEO. I have deployed this project on my server, using NGINX and Github Actions for CI/CD.",
-      link: "https://miuiflash.com",
-      github: "https://github.com/AbhiXShakya/MIUIFlash",
-      image: "/images/MIUIFlash-by-AbhiXShakya.jpeg",
-      alt: "MIUIFlash by AbhiXShakya",
-      tags: ["MERN", "NextJS", "Python", "SEO"],
-    },
-    {
       id: 1,
-      name: "Amazon Price Tracker",
+      name: "Learn2Finance",
       description:
-        "This Bot will notify you when the price of an Amazon product Changes. Also it will notify you when your product is back in stock. I made it using Python. Github and Telegram Links are given Below.",
-      link: "https://telegram.me/PriceZonerBot",
-      github: "https://github.com/AbhiXShakya/Amazon-Price-Tracker-PriceZoner",
-      image: "/images/Amazon-Price-tracker-by-AbhiXShakya.jpg",
-      alt: "Amazon Price Tracker by AbhiXShakya",
-      tags: ["Python", "Telegram Bot"],
+        "I have built Learn2Finance using Wordpress. Our aim is to educate people about money and personal finance and make them aware of the financial freedom that comes with money. I have also done SEO to make the website more search engine friendly.",
+      link: "https://learn2finance.com/",
+      github: false,
+      image: "/images/Learn2Finance-by-AbhiXShakya.jpg",
+      alt: "Learn2Finance by AbhiXShakya",
+      tags: ["Wordpress", "PHP", "CSS"],
     },
     {
       id: 2,
@@ -38,16 +27,38 @@ const Projects = () => {
     },
     {
       id: 3,
-      name: "Learn2Finance",
+      name: "Amazon Price Tracker",
       description:
-        "I have built Learn2Finance using Wordpress. Our aim is to educate people about money and personal finance and make them aware of the financial freedom that comes with money. I have also done SEO to make the website more search engine friendly.",
-      link: "https://learn2finance.com/",
-      github: false,
-      image: "/images/Learn2Finance-by-AbhiXShakya.jpg",
-      alt: "Learn2Finance by AbhiXShakya",
-      tags: ["Wordpress", "PHP", "CSS"],
+        "This Bot will notify you when the price of an Amazon product Changes. Also it will notify you when your product is back in stock. I made it using Python. Github and Telegram Links are given Below.",
+      link: "https://telegram.me/PriceZonerBot",
+      github: "https://github.com/AbhiXShakya/Amazon-Price-Tracker-PriceZoner",
+      image: "/images/Amazon-Price-tracker-by-AbhiXShakya.jpg",
+      alt: "Amazon Price Tracker by AbhiXShakya",
+      tags: ["Python", "Telegram Bot"],
     },
-  ];
+    {
+      id: 4,
+      name: "MIUI Flash",
+      description:
+        "I've done MIUIFlash using MERN STACK (With NextJS), made python bot for automatic Updates and an Admin Panel for Manual Posting. Also I've done SEO. I have deployed this project on my server, using NGINX and Github Actions for CI/CD.",
+      link: "https://miuiflash.com",
+      github: "https://github.com/AbhiXShakya/MIUIFlash",
+      image: "/images/MIUIFlash-by-AbhiXShakya.jpeg",
+      alt: "MIUIFlash by AbhiXShakya",
+      tags: ["MERN", "NextJS", "Python", "SEO"],
+    },
+    {
+      id: 5,
+      name: "RPS Fever - NFT P2E Game",
+      description:
+        "RPS Fever - Rock Paper Scissors NFT Game using Solidity for making Smart Contracts, Web3.js, Next.js (React.js), Truffle, Tailwind CSS. Give 0.01 MATIC to play and if you win, you will get 0.02 MATIC as a Reward. Game uses ERC721 Standard NFTs.",
+      link: "https://rpsfever.vercel.app",
+      github: "https://github.com/AbhiXShakya/RPSFever-NFT-Game",
+      image: "/images/RPS-Fever-NFT-Game-AbhiXShakya.jpg",
+      alt: "RPSFever - Rock Paper Scissors NFT Game by AbhiXShakya",
+      tags: ["Solidity", "NextJS", "Blockchain", "Truffle"],
+    },
+  ].reverse();
 
   return (
     <section className="mt-10">
